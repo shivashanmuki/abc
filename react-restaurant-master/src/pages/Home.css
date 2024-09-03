@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Home Page Header */
+.home-page header {
+    background-image: url(../utils/img/header-img.jpg);
+    background-size: 110%; /* Slightly zoom in the image */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat;
+    height: 100vh; /* Full height for the header */
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+.home-page header h1,
+.home-page header h2 {
+    text-shadow: 2px 2px 8px #ffffff;
+}
+
+/* About Us Section */
+.about-section {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Our Favorites Section */
+.menu-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../utils/img/menu-img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px; /* Reduced padding for a smaller appearance */
+    font-size: 0.9rem; /* Smaller font size for the entire section */
+}
+
+.menu-section h2 {
+    font-size: 2rem; /* Smaller heading */
+    color: #ffffff;
+}
+
+.menu-section ul {
+    padding: 0;
+    list-style: none;
+}
+
+.menu-section li {
+    margin-bottom: 10px; /* Reduced spacing between items */
+}
+
+/* Updated Price Text Color */
+.menu-section .text-success {
+    color: #ffffff; /* Changed the text color to white */
+}
+
+/* Image Styles */
+img {
+    border-style: solid;
+    border-width: 5px;
+    max-width: 100%; /* Ensures images don’t overflow their container */
+    height: auto;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 4rem;
+    }
+
+    .menu-section {
+        font-size: 0.8rem; /* Further reduce font size on smaller screens */
+        padding: 30px 15px; /* Reduced padding on smaller screens */
+    }
+
+    .menu-section h2 {
+        font-size: 1.8rem; /* Adjust heading size on smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .menu-section {
+        font-size: 0.7rem; /* Even smaller font size on very small screens */
+        padding: 20px 10px; /* Further reduced padding */
+    }
+
+    .menu-section h2 {
+        font-size: 1.5rem; /* Smaller heading on very small screens */
+    }
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}

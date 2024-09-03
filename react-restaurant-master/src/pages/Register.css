@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the Register Form */
+.register-container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #ffe5b4; /* Changed background color to light orange */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title of the Register Form */
+.register-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Input Fields */
+.register-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Register Button */
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #264e11;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #555555;
+}

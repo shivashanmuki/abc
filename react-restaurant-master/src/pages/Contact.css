@@ -1,0 +1,54 @@
+.contact-page header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../utils/img/contact-page-img.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.contact-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-page p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.contact-page .container {
+    margin-top: 10px;
+}
+
+.contact-page .form-group label {
+    font-weight: bold;
+}
+
+.contact-page .form-control {
+    border-radius: 5px;
+}
+
+.contact-page .btn {
+    background-color: #28a745;
+    border: none;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-page .btn:hover {
+    background-color: #218838;
+}
+
+.contact-page .bg-dark {
+    background-color: #343a40 !important;
+}
+
+.contact-page .text-light {
+    color: #f8f9fa !important;
+}
+
+.contact-page .text-center {
+    text-align: center;
+}

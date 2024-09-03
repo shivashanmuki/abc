@@ -1,0 +1,26 @@
+.food-detail-card {
+    margin-bottom: 8px;
+    padding: 8px;
+  }
+  
+  .food-detail {
+    font-size: 14px;
+  }
+  
+  .details-container {
+    padding: 8px;
+  }
+  
+  .food-details {
+    margin-bottom: 8px;
+  }
+  
+  .food-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .special-requests p {
+    margin: 0;
+  }
+  

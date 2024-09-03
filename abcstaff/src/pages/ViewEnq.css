@@ -1,0 +1,111 @@
+.view-enq-container {
+  padding: 20px;
+}
+
+.header {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.go-back-btn {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.responses-section {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.loading-text, .error-text {
+  font-size: 16px;
+  color: #333;
+}
+
+.responses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.response-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.response-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.response-id {
+  font-size: 14px;
+  color: #555;
+}
+
+.response-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.response-comments, .response-user {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.no-responses {
+  font-size: 16px;
+  color: #777;
+}
+
+.reply-box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reply-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+
+.reply-button {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.reply-button:hover {
+  background-color: #0056b3;
+}

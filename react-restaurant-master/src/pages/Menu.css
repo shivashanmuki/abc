@@ -1,0 +1,62 @@
+/* Menu.css */
+.menu-page {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #343a40;
+    color: white;
+    padding: 5px 10px; /* Reduced padding size */
+    text-align: center;
+}
+
+.menu-page .container {
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-width: 1px; /* Reduced border width */
+    border-radius: 3px; /* Reduced border radius for smaller corners */
+    border-color: #ddd; /* Lighter border color for a subtle appearance */
+}
+
+.add-to-cart-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart-button:hover {
+    background-color: darkorange;
+}
+
+.cart {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.checkout-button {
+    background-color: #084214;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.checkout-button:hover {
+    background-color: #094e2b;
+}
+
+.text-center {
+    text-align: center;
+}
